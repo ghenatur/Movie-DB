@@ -1,0 +1,16 @@
+.page{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    border: #8acca2 5px solid;
+    border-radius: 5px;
+    width: 20%;
+    color: white;
+    margin: 20px ;
+}
+.img-card{
+    width: 100%;
+}
