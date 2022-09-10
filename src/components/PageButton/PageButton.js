@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 const PageButton = ({btnPage}) => {
     const [btnCurrent, setBtnCurrent] = useState(1)
 
-    const qntPage = 500
+    const qntPage = 10
     const btnArr = []
     for (let i = 1; i <= qntPage; i++) {
         btnArr.push(i)
